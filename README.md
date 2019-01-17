@@ -5,7 +5,7 @@ pyMRSutils contains some helpful python (2.7) tools for MRS dicom files:
 renames all spectroscopy dicomfiles in the selected folder.
 
  
-USAGE
+### USAGE
     python renameMRSdicom.py
     python renameMRSdicom.py -f <folder_name>
 
@@ -20,7 +20,7 @@ averages the spectra of multiple dicom files and save at again as dicom file.
 average without the outliers and or in functional single average data to average over condition]
 
 
-USAGE
+### USAGE
     python meanMRSdicom.py
 
 	
@@ -28,7 +28,7 @@ USAGE
 anonmyses MR spectroscopy dicom files
 
 
-USAGE
+### USAGE
     python anonymizeMRSdicom.py
     python anonymizeMRSdicom.py -f <folder_name>
 
@@ -37,7 +37,7 @@ USAGE
 plots the spectrum of one or multiple MR spectroscopy dicom files and save the plot as png images on the hard drive
 
 
-USAGE
+### USAGE
     python plotMRSdicom.py
 
 	
@@ -45,7 +45,7 @@ outputs a png image for each selected dicom file containing a plot of the spectr
 	
 
 ## *Dependencies*  
-the utils are developed in python 2.7 and the following packages need to be installed: 
+The utils are developed in python 2.7 and the following packages need to be installed: 
 numpy, pydicom, matplotloib and easygui. 
 
     
