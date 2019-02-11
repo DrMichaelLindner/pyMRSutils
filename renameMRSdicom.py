@@ -79,7 +79,8 @@ def main():
         ID = dcm.PatientID
         SD = dcm.SeriesDescription
 
-        newname = ID + "_" + SN + "_" + IN + "_" + SD + ".dcm"
+        newname = ID + "_" + str(SN) + "_" + str(IN) + "_" + SD + ".dcm"
+        newname = os.path.join(PathDicom, newname)
 
         os.rename(lstFilesDCM[i], newname)
 
